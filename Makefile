@@ -14,7 +14,7 @@ LIBS = -ltiff -lpng -ljpeg -lz -lopencv_core -lopencv_highgui -lopencv_video -lo
 all: clean project
 
 project: # add source files here
-	$(CC) -g $(CXXFLAGS) $(SRCDIR)/$^ -o $(BINDIR)/$@ $(LIBS)
+	$(CC) -g $(CXXFLAGS) $(SRCDIR)/$^ -o $(BINDIR)/$@.out $(LIBS)
 
 clean:
-	rm -f *.o *~ bin/*
+	rm -f *.o *~ bin/*.out

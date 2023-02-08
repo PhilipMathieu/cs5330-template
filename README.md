@@ -18,6 +18,7 @@ See INSTALL.md for notes on my environment setup.
 
 This is a fairly conventional structure. My explanation draws inspiration from [this StackOverflow response (CC BY-SA 2.5)](https://stackoverflow.com/a/1398594/2213454)
 
+In order to track these directories with git, I have added empty `.gitkeep` files in each empty directory. This may not be standard practice, but it is an efficient way of making sure the directory structure is enforced.
 
 ## Makefile
 The included Makefile has not been tested extensively and may need modification to match your system.
