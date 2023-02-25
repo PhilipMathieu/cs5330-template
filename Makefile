@@ -27,5 +27,5 @@ clean:
 	rm -f data/*
 
 clean-template:
-	rm environment.yml INSTALL.md LICENSE.md README.md
+	rm environment.yml INSTALL.md LICENSE.md README.md */.gitkeep
 	echo "# Blank Project" > README.md
